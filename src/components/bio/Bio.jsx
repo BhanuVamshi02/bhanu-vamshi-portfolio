@@ -46,7 +46,7 @@ const Bio = () => {
         </div>
         <div className="bio-img">
           {/* Your profile picture goes here */}
-          <img src="/assets/port-pic.png" alt="Profile" />
+          <img src="assets/port-pic.png" alt="Profile" />
         </div>
       </div>
     </div>
