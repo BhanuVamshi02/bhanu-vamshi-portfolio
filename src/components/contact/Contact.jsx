@@ -75,26 +75,23 @@ const Contact = () => {
       )}{" "}
       <div className="contact-logo">
         <a href="https://github.com/BhanuVamshi02" target="blank">
-          <img src="./src/assets/github-port.png" alt="" />
+          <img src="/assets/github-port.png" alt="" />
         </a>
         <a
           href="https://www.linkedin.com/in/bhanu-vamshi-anumula-3b2740217"
           target="blank"
         >
-          <img src="./src/assets/linkedin-port.png" alt="" />
+          <img src="/assets/linkedin-port.png" alt="" />
         </a>
         <a href="mailto:bhanuvamshi0211@gmail.com" target="blank">
-          <img src="./src/assets/mail-port.png" alt="" />
+          <img src="/assets/mail-port.png" alt="" />
         </a>
       </div>
       <div className="contact-footer">
         <p>bhanuvamshi0211@gmail.com |</p>
         <p className="resume-link">
           Download Resume{" "}
-          <a
-            href="./src/assets/vamshi-resume.pdf"
-            download="bhanu-vamshi-resume"
-          >
+          <a href="/assets/vamshi-resume.pdf" download="bhanu-vamshi-resume">
             click here
           </a>
         </p>

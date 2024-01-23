@@ -36,7 +36,7 @@ const Bio = () => {
               Linkedin
             </a>
             <a
-              href="./src/assets/vamshi-resume.pdf"
+              href="/assets/vamshi-resume.pdf"
               target="blank"
               download="bhanu-vamshi-resume"
             >
@@ -46,7 +46,7 @@ const Bio = () => {
         </div>
         <div className="bio-img">
           {/* Your profile picture goes here */}
-          <img src="./src/assets/port-pic.png" alt="Profile" />
+          <img src="/assets/port-pic.png" alt="Profile" />
         </div>
       </div>
     </div>

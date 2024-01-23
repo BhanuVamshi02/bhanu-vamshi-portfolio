@@ -12,7 +12,7 @@ const Projects = () => {
         "I crafted a LinkedIn Clone using React.js, Redux, Firebase, and Styled Components. This fully responsive platform ensures secure Google authentication, dynamic post sharing, content filtering, and seamless community post viewing.",
       projectLink: "https://linkedin-clone-7296d.web.app/",
       codeLink: "https://github.com/BhanuVamshi02/linkedin-clone",
-      img: "./src/assets/linkedin-pic.png",
+      img: "/assets/linkedin-pic.png",
     },
     {
       category: "web-apps",
@@ -22,7 +22,7 @@ const Projects = () => {
         "E-commerce Platform built with React.js, Context API, Formspree.ai, FakeApi, and CSS. Features innovative design, robust state management, dynamic data fetching, and Formspree.io integration for streamlined email communication.",
       projectLink: "https://shopnow-new.vercel.app/",
       codeLink: "https://github.com/BhanuVamshi02/Shopnow-new",
-      img: "./src/assets/shopnow-pic.png",
+      img: "/assets/shopnow-pic.png",
     },
     {
       category: "web-apps",
@@ -32,7 +32,7 @@ const Projects = () => {
         "Responsive Data Management developed with React.js, CSS, Context API, Firebase. Offers personalized data management, efficient retrieval, inclusive accessibility, and secure authentication leveraging Firebase.",
       projectLink: "https://manage-now.vercel.app/",
       codeLink: "https://github.com/BhanuVamshi02/manage-now",
-      img: "./src/assets/managenow-pic.png",
+      img: "/assets/managenow-pic.png",
     },
     {
       category: "web-designs",
@@ -42,7 +42,7 @@ const Projects = () => {
         "Crafted an immersive IMDb home page concept for Jujutsu Kaisen anime using Figma, featuring striking visuals",
       projectLink:
         "https://www.figma.com/file/4XYEbjwHFm8NLTgeY6gzhf/imdb-page?type=design&node-id=4%3A5&mode=design&t=RMX6Uc62GNfQ0X8c-1",
-      img: "./src/assets/jujutsu-pic.png",
+      img: "/assets/jujutsu-pic.png",
     },
   ];
 
