@@ -36,7 +36,7 @@ const Bio = () => {
               Linkedin
             </a>
             <a
-              href="/assets/new-resume.pdf"
+              href="/assets/vamshi-resume.pdf"
               target="blank"
               download="bhanu-vamshi-resume"
             >

@@ -91,7 +91,7 @@ const Contact = () => {
         <p>bhanuvamshi0211@gmail.com |</p>
         <p className="resume-link">
           Download Resume{" "}
-          <a href="/assets/new-resume.pdf" download="bhanu-vamshi-resume">
+          <a href="/assets/vamshi-resume.pdf" download="bhanu-vamshi-resume">
             click here
           </a>
         </p>
