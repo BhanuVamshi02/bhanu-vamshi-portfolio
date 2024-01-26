@@ -12,7 +12,7 @@ const Skills = () => {
     "Figma",
     "Python",
     "SQL",
-    "Ms Office",
+    "SDLC",
   ];
   return (
     <div id="skills">
