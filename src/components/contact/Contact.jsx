@@ -1,20 +1,20 @@
 import React, { useEffect } from "react";
 import "./Contact.css";
 import { useState } from "react";
+import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [state, handleSubmit] = useForm("moqobbgy");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
+  if (state.succeeded) {
     setShowSuccessMessage(true);
     e.target.reset();
 
     setTimeout(() => {
       setShowSuccessMessage(false);
     }, 3000);
-  };
+  }
 
   const date = new Date().getFullYear();
 
@@ -22,12 +22,7 @@ const Contact = () => {
     <div id="contact">
       <h1>Contact</h1>
       <div className="contact-form">
-        <form
-          action="https://formspree.io/f/moqobbgy"
-          // action=""
-          method="POST"
-          onSubmit={handleSubmit}
-        >
+        <form onSubmit={handleSubmit}>
           <input
             type="text"
             placeholder="Username"
