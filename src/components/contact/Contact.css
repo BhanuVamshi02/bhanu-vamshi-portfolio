@@ -78,7 +78,7 @@
   /* border: 1px solid #fdc435; */
 }
 
-.contact-form form input[type="submit"] {
+.contact-form form button {
   width: 90px;
   background-color: #fdc435;
   border: none;
@@ -88,9 +88,10 @@
   cursor: pointer;
   border-radius: 5px;
   font-family: Roboto;
+  padding: 10px;
 }
 
-.contact-form form input[type="submit"]:hover {
+.contact-form form button:hover {
   background-color: #f0b828;
 }
 

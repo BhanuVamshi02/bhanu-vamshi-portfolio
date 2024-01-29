@@ -7,14 +7,17 @@ const Contact = () => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [state, handleSubmit] = useForm("moqobbgy");
 
-  if (state.succeeded) {
-    setShowSuccessMessage(true);
-    e.target.reset();
+  useEffect(() => {
+    if (state.succeeded) {
+      setShowSuccessMessage(true);
 
-    setTimeout(() => {
-      setShowSuccessMessage(false);
-    }, 3000);
-  }
+      // Set timeout to hide success message and redirect after 2 seconds
+      setTimeout(() => {
+        setShowSuccessMessage(false);
+        window.location.href = "/";
+      }, 2000);
+    }
+  }, [state.succeeded]);
 
   const date = new Date().getFullYear();
 
@@ -45,10 +48,10 @@ const Contact = () => {
             placeholder="Enter your message"
             required
           ></textarea>
-          <input type="submit" value="Send" />
+          <button type="submit">Send</button>
         </form>
       </div>
-      {showSuccessMessage ? (
+      {showSuccessMessage && (
         <div className="success-overlay">
           <div className="success-message">
             <h2
@@ -65,9 +68,7 @@ const Contact = () => {
             </p>
           </div>
         </div>
-      ) : (
-        ""
-      )}{" "}
+      )}
       <div className="contact-logo">
         <a href="https://github.com/BhanuVamshi02" target="blank">
           <img src="/assets/github-port.png" alt="" />
