@@ -8,6 +8,9 @@ const Bio = () => {
     <div id="bio">
       <div className="bio-content">
         <div className="bio-text">
+          <h2 style={{ fontFamily: "Playfair Display" }}>
+            Hello, I’m <br /> Bhanu Vamshi
+          </h2>
           <p
             style={{
               fontFamily: "Nunito",
@@ -18,11 +21,8 @@ const Bio = () => {
               backgroundColor: "transparent",
             }}
           >
-            IT PROFESSIONAL
+            Ready to Build!
           </p>
-          <h2 style={{ fontFamily: "Playfair Display" }}>
-            Hello, I’m <br /> Bhanu Vamshi
-          </h2>
           <p>
             Fresh out of M.Sc. land, curiosity propels me into the amazing world
             of software! Eager to learn from the best, growing with every
