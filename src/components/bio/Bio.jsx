@@ -24,10 +24,8 @@ const Bio = () => {
             Ready to Build!
           </p>
           <p>
-            Fresh out of M.Sc. land, curiosity propels me into the exciting
-            world of web development! Driven to learn from the best and grow
-            with every challenge, I'm eager to build user-friendly and visually
-            appealing interfaces. Let's code the future, one line at a time!
+            Fresh out of M.Sc. land, diving into web dev! Passionate learner,
+            building user-friendly interfaces. Let's code the future together!
           </p>
           <div className="bio-text-buttons">
             <a
