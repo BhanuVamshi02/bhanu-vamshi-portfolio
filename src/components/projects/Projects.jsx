@@ -7,9 +7,9 @@ const Projects = () => {
   const projectData = [
     {
       category: "web-apps",
-      title: "Linkedin Clone",
+      title: "Linkedin Mini",
       description:
-        "I crafted a LinkedIn Clone using React.js, Redux, Firebase, and Styled Components. This fully responsive platform ensures secure Google authentication, dynamic post sharing, content filtering, and seamless community post viewing.",
+        "React.js & Firebase power a social platform with Google auth, dynamic posts, & innovative content filtering.",
       projectLink: "https://linkedin-clone-7296d.web.app/",
       codeLink: "https://github.com/BhanuVamshi02/linkedin-clone",
       img: "/assets/linkedin-pic.png",
@@ -19,7 +19,7 @@ const Projects = () => {
 
       title: "Shop Now",
       description:
-        "E-commerce Platform built with React.js, Context API, Formspree.ai, FakeApi, and CSS. Features innovative design, robust state management, dynamic data fetching, and Formspree.io integration for streamlined email communication.",
+        "A seamless React.js shopping experience.  Intuitive UI, responsive design, Context API's efficient state management & dynamic data powered by RESTful APIs",
       projectLink: "https://shopnow-new.vercel.app/",
       codeLink: "https://github.com/BhanuVamshi02/Shopnow-new",
       img: "/assets/shopnow-pic.png",
@@ -29,7 +29,7 @@ const Projects = () => {
 
       title: "ManageNow",
       description:
-        "Responsive Data Management developed with React.js, CSS, Context API, Firebase. Offers personalized data management, efficient retrieval, inclusive accessibility, and secure authentication leveraging Firebase.",
+        "Dynamic Data Hub: React.js & Context API power personalized access, efficient retrieval, and secure auth with Firebase.",
       projectLink: "https://manage-now.vercel.app/",
       codeLink: "https://github.com/BhanuVamshi02/manage-now",
       img: "/assets/managenow-pic.png",

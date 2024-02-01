@@ -35,7 +35,7 @@ const Bio = () => {
               Linkedin
             </a>
             <a
-              href="https://drive.google.com/file/d/1YytFXuAzvg-Q9HuMyGhqQKljZPM6cbIC/view?usp=sharing"
+              href="https://drive.google.com/file/d/1w2GHMv1wJKB9enChXZrpIhzZGX1DHbGP/view"
               target="blank"
             >
               Resume{" "}
