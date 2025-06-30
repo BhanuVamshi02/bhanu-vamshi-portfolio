@@ -88,6 +88,15 @@ const Projects = () => {
           }}
         >
           Web Designs
+        </button>  <button
+          onClick={() => handleCategoryClick("entertainment")}
+          style={{
+            backgroundColor:
+              selectedCategory === "entertainment" ? "#FDC435" : "",
+            border: selectedCategory === "entertainment" ? "none" : "",
+          }}
+        >
+          Entertainment
         </button>
       </div>
       {getFilteredProjects().map((project, index) => (
