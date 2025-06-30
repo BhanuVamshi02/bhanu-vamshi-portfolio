@@ -35,7 +35,7 @@ I design and develop to create better digital experiences for everyone.
               Linkedin
             </a>
             <a
-              href="https://drive.google.com/file/d/1jA6qjRDTsvb4oY1sca5VYb_IHYhijNoW/view?usp=sharing"
+              href="https://drive.google.com/file/d/17NK36d-cNQ8IqN2Gh0ZK6fj_KUjiXVXZ/view?usp=sharing"
               target="blank"
             >
               Resume{" "}
