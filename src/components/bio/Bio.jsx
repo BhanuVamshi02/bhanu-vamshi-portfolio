@@ -24,8 +24,8 @@ const Bio = () => {
             Ready to Build!
           </p>
           <p>
-            Fresh out of M.Sc. land, diving into web dev! Passionate learner,
-            building user-friendly interfaces. Let's code the future together!
+            Always learning, always building.
+I design and develop to create better digital experiences for everyone.
           </p>
           <div className="bio-text-buttons">
             <a
@@ -35,7 +35,7 @@ const Bio = () => {
               Linkedin
             </a>
             <a
-              href="https://drive.google.com/file/d/1uUHSaICPOjEOnQCOII57Jkmtzc_BYxZS/view?usp=sharing"
+              href="https://drive.google.com/file/d/1jA6qjRDTsvb4oY1sca5VYb_IHYhijNoW/view?usp=sharing"
               target="blank"
             >
               Resume{" "}
