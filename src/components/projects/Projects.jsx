@@ -49,7 +49,7 @@ const Projects = () => {
       description:
         "Enter the shadows with The Black Swordsman — an AI-crafted warrior forged by vengeance and silence.",
       projectLink: "https://youtu.be/dWSJwBlc-R4?si=GH7MuJ0jjpJ6iRa6",
-      img: "/assets/linkedin-pic.png",
+      img: "/assets/the-black-swordsman.png",
     },
   ];
 
