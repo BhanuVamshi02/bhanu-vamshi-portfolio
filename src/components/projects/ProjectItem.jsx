@@ -19,7 +19,7 @@ const ProjectItem = ({
           <a href={projectLink} target="blank">
             View Project
           </a>
-          {category !== "web-designs" && (
+          {category !== "web-designs" && category !== "entertainment"  && (
             <a href={codeLink} target="blank" rel="noopener noreferrer">
               View Code
             </a>
