@@ -13,6 +13,7 @@ const Skills = () => {
     "Python",
     "SQL",
     "SDLC",
+    "ServiceNow"
   ];
   return (
     <div id="skills">
