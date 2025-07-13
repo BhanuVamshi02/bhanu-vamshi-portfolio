@@ -27,7 +27,7 @@ const Bio = () => {
             Always learning, always building.
 I design and develop to create better digital experiences for everyone.
           </p>
-          <div className="bio-text-buttons">
+       <!--   <div className="bio-text-buttons">
             <a
               href="https://www.linkedin.com/in/bhanu-vamshi-anumula-3b2740217/"
               target="blank"
@@ -40,7 +40,7 @@ I design and develop to create better digital experiences for everyone.
             >
               Resume{" "}
             </a>
-          </div>
+          </div> -->
         </div>
         <div className="bio-img">
           {/* Your profile picture goes here */}
